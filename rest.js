@@ -11,7 +11,7 @@ $(document).ready(function() {
                 });
         },
         error: function(json){
-            alert("something went wrong");
+            alert("Something went wrong while trying to retrieve your products");
         },
     });
 
